@@ -12,7 +12,7 @@ public class CNZ_Code {
 	private static String name = "User";
 
 	public static void main(String[] args) {
-		JFrame window = new JFrame("IDK");
+		JFrame window = new JFrame("VERITAS_EVAL");
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setLayout(new BorderLayout());
 
@@ -23,6 +23,8 @@ public class CNZ_Code {
 		textArea.setEditable(false);
 		window.add(textArea, BorderLayout.CENTER);
 
+		 
+		
 		textField.addKeyListener(new KeyListener() {
 
 			@Override
